@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topnav{
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+b{
+    color: rgb(87, 86, 86);
+    margin-left: 4px;
+    font-size: 15px;
+
+}
+#rre{
+    border: solid rgb(137, 134, 134) 1px ;
+    text-align: justify;
+    border-radius: 10px;
+    line-height: 10px;
+}
+.navbar{
+    height:40px;
+    background-color: green;
+}
+.navbar ul{
+    display: flex;
+    justify-content: start;
+}
+.navbar ul li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.navbar ul li a:hover{
+    background-color: rgb(12, 66, 12);
+}
+.rightnav{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 115px;
+    left: 1300px;
+    font-size: 25px;
+    
+    
+}
+#fo{
+    margin-top: -30px;
+    font-weight: 100px;
+}
+i{
+    margin: 4px;
+    margin-top:-30px;
+}
+i:hover{
+    background-color: rgb(6, 58, 6);
+}
+.mar{
+    height: 25px;
+    background-color: aquamarine;
+}
+marquee{
+    color: rgb(47, 46, 46);
+}
+.main{
+
+
+}
+.main img{
+    width: 100%;
+    height: 370px;
+}
+.secform{
+    height: 250px;
+    background-color: rgb(228, 232, 228);
+    width: 40%;
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    border-radius: 10px;
+    
+    
+}
+.secform:hover{
+    background-color: rgb(149, 232, 149);
+
+}
+/* #li{
+    margin-left: 170px;
+   
+    
+}
+#ti{
+    margin-left: 50px;
+}
+
+ */
+ .inp{
+    width: 270px;
+    height: 40px;
+    text-align: center;
+    border-top: none;
+    font-weight: bolder;
+    color: black;
+
+ }
+ #inp1{
+    border-left: none;
+    margin-left: 10px;
+
+
+ }
+ #inp2{
+    border-right: none;
+ }
+ .inpu{
+    margin-left: 10px;
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+
+ }
+ .in{
+    margin-left: 10px;
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    
+ }
+ #b1{
+    width: 600PX;
+    margin-top: 10PX;
+    height: 30PX;
+    margin-left: 10PX;
+    background-color: red;
+    border-radius: 20PX;
+    color: white;
+ }
+ .row{
+    width: 100%;
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+
+ }
+ .col{
+    width: 20%;
+    background-color: rgb(123, 219, 111);
+    border-radius: 10px;
+    margin: 10px;
+    height:100px ;
+    border: solid rgb(76, 75, 75) 1px;
+    display: flex;
+    
+ }
+ .ro{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(234, 242, 232);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 400px;
+
+ }
+ .co{
+    width: 23%;
+    border-radius: 10px;
+    margin: 10px;
+    height:200px ;
+    border: solid rgb(76, 75, 75) 1px;
+    background: linear-gradient(45deg,rgb(162, 173, 152),rgb(43, 255, 0),rgb(20, 177, 2),rgb(159, 210, 144),rgb(11, 88, 34) ); 
+    transition: 1s;
+    background-size: 150% 250%;
+    margin-left: 20px;
+ }
+ .co:hover{
+    background-position: bottom;
+ }
+ #whi:hover{
+    color: rgb(5, 45, 5);
+ }
+ 
